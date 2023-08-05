@@ -6,6 +6,6 @@
 3. 简单项目 - project
 4. AI基础   - ai
 5. 书籍代码 - ebook
-6. 文章     - article
+6. 文章    - article
 ---------------------
 
