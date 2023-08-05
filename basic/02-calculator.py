@@ -9,6 +9,17 @@
 2. 请用户选择运算方法
 3. 将运行结果展示出来
 '''
-
-
+a = float(input("输入第一个数："))
+b = float(input('输入第二个数：'))
+c = input('输入一个运算符：')
+if c == '+':
+    print(a + b)
+elif c == '-':
+    print(a - b)
+elif c == '*':
+    print(a * b)
+elif c == '/':
+    print(a / b)
+else:
+    print('运算符输入错误!')
 
