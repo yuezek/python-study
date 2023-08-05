@@ -9,17 +9,19 @@
 2. 请用户选择运算方法
 3. 将运行结果展示出来
 '''
+import util as u
+
 a = float(input("输入第一个数："))
 b = float(input('输入第二个数：'))
 c = input('输入一个运算符：')
 if c == '+':
-    print(a + b)
+    print(u.add(a,b))
 elif c == '-':
-    print(a - b)
+    print(u.subtract(a,b))
 elif c == '*':
-    print(a * b)
+    print(u.multiply(a,b))
 elif c == '/':
-    print(a / b)
+    print(u.divide(a , b))
 else:
     print('运算符输入错误!')
 
